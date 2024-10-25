@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.woff2") format("woff2");
+}
+nav {
+  font-family: Poppins;
+  background-color: #001a2e;
+  opacity: 0.9;
+  z-index: 30;
+}
+.navbar-brand {
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+.navbar-collapse {
+  background-color: #001a2ec3;
+}
+.nav-line a {
+  position: relative;
+  text-decoration: none;
+}
+.nav-link,
+.nav-link:hover {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.nav-line a::after {
+  position: absolute;
+  content: "";
+  top: 25px;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: #a9d6e5;
+  opacity: 0.5;
+  transition: width 0.5s;
+  border-radius: 2px;
+}
+.nav-line a:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+.navbar-toggler {
+  color: #fff;
+  font-size: 20px;
+}
+.navbar-toggler:focus {
+  outline: none;
+}

@@ -1,0 +1,70 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../assets/fonts/Poppins/Poppins-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../assets/fonts/Poppins/Poppins-SemiBold.woff2") format("woff2");
+}
+.footer {
+  font-family: Poppins;
+  background-color: #001a2ee5;
+}
+.footer-col1-p1 {
+  font-weight: 900;
+  color: #e94e46;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-bottom: 8px;
+  font-family: Poppins-SemiBold;
+}
+.footer-col1-p2 {
+  color: #cad3db;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  width: 220px;
+}
+.footer-col1-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.footer-col2-p1,
+.footer-col3-p1,
+.footer-col4-p1,
+.footer-col5-p1 {
+  color: #e94e46;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+.footer-links {
+  display: block;
+  text-decoration: none;
+  color: #cad3db;
+  line-height: 27px;
+  transition: 0.5s;
+  font-size: 15px;
+}
+.footer-links:hover {
+  color: #8cb4cd;
+  transition: 0.5s;
+}
+.footer-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #a9d6e5;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+.footer-col5 {
+  margin-right: 0;
+}
+.footer-links i {
+  font-size: 25px;
+  line-height: 40px;
+  color: #2c7da0;
+}
